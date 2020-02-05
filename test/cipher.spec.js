@@ -4,24 +4,24 @@ import cipher from '../src/cipher';
 
 describe('cipher', () => {
 
-  it('should be an object', () => {
+  it('cipher debería ser un objeto', () => {
     expect(typeof cipher).toBe('object');
   });
 
   describe('cipher.encode', () => {
 
-    it('should be a function', () => {
+    it('debería ser una función', () => {
       expect(typeof cipher.encode).toBe('function');
     });
 
-    it('should throw TypeError when invoked with wrong argument types', () => {
+    it('debería arrojar TypeError cuando se invoca con tipos de argumento incorrectos', () => {
       expect(() => cipher.encode()).toThrow(TypeError);
       expect(() => cipher.encode(0)).toThrow(TypeError);
       expect(() => cipher.encode(null, [])).toThrow(TypeError);
       expect(() => cipher.encode(0, 0)).toThrow(TypeError);
     });
 
-    it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
+    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
       expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
@@ -30,7 +30,7 @@ describe('cipher', () => {
     // Si decides agregar soporte para minúsculas descomenta el test a
     // continuación.
     //
-    // it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
+    // it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
     //   expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
     // });
 
@@ -39,25 +39,25 @@ describe('cipher', () => {
     // Si decides implementar soporte para caracteres no alfabéticos descomenta
     // el test a continuación.
     //
-    // it('should return " !@" for " !@"', () => {
+    // it('debería retornar " !@" para " !@"', () => {
     //   expect(cipher.encode(33, ' !@')).toBe(' !@');
     // });
   });
 
   describe('cipher.decode', () => {
 
-    it('should be a function', () => {
+    it('debería ser una function', () => {
       expect(typeof cipher.decode).toBe('function');
     });
 
-    it('should throw TypeError when invoked with wrong argument types', () => {
+    it('debería arrojar TypeError cuando se invoca con tipos de argumento incorrectos', () => {
       expect(() => cipher.encode()).toThrow(TypeError);
       expect(() => cipher.encode(0)).toThrow(TypeError);
       expect(() => cipher.encode(null, [])).toThrow(TypeError);
       expect(() => cipher.encode(0, 0)).toThrow(TypeError);
     });
 
-    it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
+    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {
       expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
 
@@ -67,7 +67,7 @@ describe('cipher', () => {
     // Si decides agregar soporte para minúsculas descomenta el test a
     // continuación.
     //
-    // it('should return "abcdefghijklmnopqrstuvwxyz" for "hijklmnopqrstuvwxyzabcdefg" with offset 33', () => {
+    // it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33', () => {
     //   expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
     // });
 
@@ -76,7 +76,7 @@ describe('cipher', () => {
     // Si decides implementar soporte para caracteres no alfabéticos descomenta
     // el test a continuación.
     //
-    // it('should return " !@" para " !@"', () => {
+    // it('debería retornar " !@" para " !@"', () => {
     //   expect(cipher.decode(33, ' !@')).toBe(' !@');
     // });
   });
