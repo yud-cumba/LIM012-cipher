@@ -7,7 +7,7 @@ Mi proyecto consiste en crear una aplicación web que cifre y decifre mensajes d
 
 * Esta aplicación está diseñada para las parejas que quieren tener conversaciones privadas y que solo ellos puedan entender. Para ello usarán la aplicación donde ambos eligirán el mismo número de desplazamiento y podrán codificar el mensaje que quieran enviar y decodificar para poder leerlo.
 
-![prototipo](file:///home/yudith/Im%C3%A1genes/SS%20importantes/PROTOTYPE.png)
+![prototipo](home/yudith/Im%C3%A1genes/SS%20importantes/PROTOTYPE.png?raw=true "Title")
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
@@ -64,7 +64,6 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 * [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
 * [ ] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
-
 ### DOM
 
 * [ ] [Uso de selectores de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
