@@ -1,27 +1,13 @@
 # Cifrado César
-YUD-CUMBA
 
-## Índice
+## 1. Resumen del proyecto
+Mi proyecto consiste en crear una aplicación web que cifre y decifre mensajes de texto, diseñado para parejas que no quieren que otras personas se enteren.
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+## 3. Investigación UX
 
-***
+* Esta aplicación está diseñada para las parejas que quieren tener conversaciones privadas y que solo ellos puedan entender. Para ello usarán la aplicación donde ambos eligirán el mismo número de desplazamiento y podrán codificar el mensaje que quieran enviar y decodificar para poder leerlo.
 
-## 1. Preámbulo
-
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![prototipo](file:///home/yudith/Im%C3%A1genes/SS%20importantes/PROTOTYPE.png)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
