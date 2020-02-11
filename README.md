@@ -7,7 +7,7 @@ Mi proyecto consiste en crear una aplicación web que cifre y decifre mensajes d
 
 * Esta aplicación está diseñada para las parejas que quieren tener conversaciones privadas y que solo ellos puedan entender. Para ello usarán la aplicación donde ambos eligirán el mismo número de desplazamiento y podrán codificar el mensaje que quieran enviar y decodificar para poder leerlo.
 
-![prototipo](/home/yudith/Im%C3%A1genes/SS%20importantes/PROTOTYPE.png)
+![prototipo](https://balsamiq.cloud/s3pqun5/p6bv3r9/rBCA2)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
