@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+</head>
+<body>
+  <header>¡CREA TUS MENSAJES TOP SECRET!</header>
+  <main>
+      <h1>¿No te ha pasado que quieres escrbir algún mensaje a tu pareja sin que nadie más se entere?<br>¡Esta aplicación es para tí!</h1>
+      <p>Si quieres enviar un mensaje que solo tú y tu pareja entiendan, escribe tu mensaje en el panel, dale a <em>codificar</em> y tu texto estará listo para enviar.<br>
+      Si quieres leer y entender el mensaje que te enviaron, coloca el mensaje en el panel, selecciona <em>decodificar</em>, y ¡LISTO!</p>
+      <p>Ingrese el nivel de seguridad:
+      <input type="number" id="movimientos" min="0" max="100"><br>
+      </p>
+      <input type="text" id="textOriginal"><br>
+      <button type="button" id="btnCod">Codificar</button><br>
+      <button type="button" id="btnDecod">Decodificar</button><br>
+      <div id="textChanged"></div><br>
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
 </html>
