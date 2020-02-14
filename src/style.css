@@ -1,0 +1,22 @@
+
+header{
+    font-family: Florence, cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(75, 13, 61);
+    text-align:center;
+    text-decoration: blink;
+    text-shadow: 5px 4px 2px pink;
+  }
+  #textOriginal{
+  border: 5px solid purple;
+  width: 90%;
+  height: 30px;
+  background-color: pink;
+  }
+  #textChanged{
+  border: 5px solid purple;
+  width: 90%;
+  height: 30px;
+  background-color: pink;
+  }
