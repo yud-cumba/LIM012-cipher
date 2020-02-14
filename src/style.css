@@ -1,21 +1,68 @@
-header{
+*{
+}
+
+h2{
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  text-align:center;
+}
+body{
+  background-color: chocolate;
+}
+#letras{
+  background-color: royalblue;
+}
+#letras p{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: skyblue;
+}
+main{
+  background-color: brown;
+}
+p{
+  font-family: Florence, cursive ;
+}
+.boxtext{
+  display: :flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h1{
     font-family: Florence, cursive;
     font-size: xx-large;
-    font-weight: bolder;
+    font-weight
+    : bolder;
     color: rgb(75, 13, 61);
     text-align:center;
     text-decoration: blink;
     text-shadow: 5px 4px 2px pink;
   }
-  #textOriginal{
+  .box{
   border: 5px solid purple;
-  width: 90%;
-  height: 30px;
-  background-color: pink;
+  width: 97%;
+  height: 80px;
+  background-color: papayawhip;
+  overflow: scroll;
   }
-  #textChanged{
-  border: 5px solid purple;
-  width: 90%;
-  height: 30px;
-  background-color: pink;
+  #botones{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .button{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    border: 2px solid rgb(75, 13, 61);
+    cursor: pointer;
+  }
+  .number{
+    width: 32px;
+    height: 20px;
+    border: 2px solid rgb(75, 13, 61);
+    cursor: pointer;
   }
