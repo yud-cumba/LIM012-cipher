@@ -1,25 +1,25 @@
 
 body{
   background-image: url("fondo-corazon.jpg");
+  background-size: 100% 100%;
   text-align:center;
-  display: flex;
-  justify-content: center;
+  display:flex;
+  justify-content:center;
 }
 main{
     background-color: white;
     width: 60%;
     height: auto;
-    border: 5px solid black;
-    background-attachment: fixed;
+    border: 2px solid black;
+    border-radius: 38px;
   }
-h1{
-  font-family: 'Pacifico', cursive;
-  font-size: 55px;
-    color: black;
-    text-align:center;
-    text-decoration: blink;
-    text-shadow: 5px 4px 2px pink;
-  }
+#title{
+  width: 80%;
+  height: 150px;
+  background-image: url("logo.jpg");
+  background-size: 100% 100% ;
+}
+
   h2{
     font-size: medium;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -38,10 +38,10 @@ p{
 }
   .box{
   text-align: center;
-  border: 5px solid black;
+  border: 2px solid black;
   width: 80%;
   height: 60px;
-  background-color: papayawhip;
+  background-color: #C4F3EB;
   overflow:scroll;
   }
   #botones{
@@ -49,18 +49,19 @@ p{
     justify-content: space-around;
   }
   .button{
-    width: 100px;
+    width: 150px;
     margin: 10px;
-    height: 40px;
+    height: 50px;
     font-size: 15px;
-    color:black;
-    background-color: grey;
+    color: black;
+    background-color: #05D6B3;
     border: 2px solid black;
     border-radius: 8px;
     cursor: pointer;
   }
   .button:hover{
-    background-color: pink;
+    color:black;
+    background-color: skyblue;
     border: 2px solid black;
   }
   .boxcenter{
