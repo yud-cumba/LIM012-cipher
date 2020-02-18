@@ -1,68 +1,69 @@
-*{
-}
 
-h2{
-  font-size: medium;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: lighter;
-  text-align:center;
-}
 body{
-  background-color: chocolate;
-}
-#letras{
-  background-color: royalblue;
-}
-#letras p{
-  width: 80%;
+  background-image: url("fondo-corazon.jpg");
+  text-align:center;
   display: flex;
   justify-content: center;
-  background-color: skyblue;
 }
 main{
-  background-color: brown;
-}
-p{
-  font-family: Florence, cursive ;
-}
-.boxtext{
-  display: :flex;
-  flex-direction: row;
-  justify-content: center;
-}
+    background-color: white;
+    width: 60%;
+    height: auto;
+    border: 5px solid black;
+    background-attachment: fixed;
+  }
 h1{
-    font-family: Florence, cursive;
-    font-size: xx-large;
-    font-weight
-    : bolder;
-    color: rgb(75, 13, 61);
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+    color: black;
     text-align:center;
     text-decoration: blink;
     text-shadow: 5px 4px 2px pink;
   }
+  h2{
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align:center;
+  }
+p{
+  text-align: center;
+  font-family: Florence, cursive ;
+}
+#movimientos{
+  width: 32px;
+  height: 20px;
+  border: 2px solid black;
+  cursor: pointer;
+}
   .box{
-  border: 5px solid purple;
-  width: 97%;
-  height: 80px;
+  text-align: center;
+  border: 5px solid black;
+  width: 80%;
+  height: 60px;
   background-color: papayawhip;
-  overflow: scroll;
+  overflow:scroll;
   }
   #botones{
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
   .button{
-    text-align: center;
     width: 100px;
+    margin: 10px;
     height: 40px;
-    background-color: blueviolet;
-    border: 2px solid rgb(75, 13, 61);
+    font-size: 15px;
+    color:black;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 8px;
     cursor: pointer;
   }
-  .number{
-    width: 32px;
-    height: 20px;
-    border: 2px solid rgb(75, 13, 61);
-    cursor: pointer;
+  .button:hover{
+    background-color: pink;
+    border: 2px solid black;
+  }
+  .boxcenter{
+    display:flex;
+    justify-content:center;
   }

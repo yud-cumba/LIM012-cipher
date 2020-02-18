@@ -7,24 +7,23 @@
   </head>
   <body>
     <main>
-    <div id="todo">
         <h1>¡CREA TUS MENSAJES TOP SECRET!</h1>
         <h2>¿No te ha pasado que quieres escrbir algún mensaje a tu pareja sin que nadie más se entere?<br>¡Esta aplicación es para tí!</h2>
-        <div id="letras">
         <p>Si quieres enviar un mensaje que solo tú y tu pareja entiendan, escribe tu mensaje en el panel, dale a <em>codificar</em> y tu texto estará listo para enviar.<br>
         Si quieres leer y entender el mensaje que te enviaron, coloca el mensaje en el panel, selecciona <em>decodificar</em>, y ¡LISTO!</p>
         <p>Ingrese el nivel de seguridad:
-        <input type="number" class="number" id="movimientos" min="0" max="100">
+        <input type="number" id="movimientos" min="0" max="100">
         </p>
-        </div>
-        <div class="boxtext" >
-           <div><input type="text" class="box" id="textOriginal"></div>
+        <div class="boxcenter">
+        <input type="text" class="box" id="textOriginal">
         </div>
         <div id="botones">
-        <div><button type="button" class="button" id="btnCod">Codificar</button></div>
-        <div><button type="button" class="button" id="btnDecod">Decodificar</button></div>
+           <button type="button" class="button" id="btnCod">Codificar</button>
+           <button type="button" class="button" id="btnDecod">Decodificar</button>
         </div>
-        <div><p id="textChanged" class="box"></p></div>
+        <div class="boxcenter">
+        <p id="textChanged" class="box"></p><br><br>
+      </div>
     </main>
     <script src="index.js" type="module"></script>
   </body>
