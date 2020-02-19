@@ -49,20 +49,25 @@ p{
     justify-content: space-around;
   }
   .button{
-    width: 150px;
+    box-shadow: 3px 4px 0px 0px #343d40;
+    background:linear-gradient(to bottom, #ededed 5%, #069ac7 100%);
+    background-color:#ededed;
+    border-radius:24px;
+    border:1px solid #0a090a;
+    display:inline-block;
+    cursor:pointer;
+    color:#191b1c;
+    font-family:Courier New;
+    font-size:20px;
+    font-weight:bold;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
     margin: 10px;
-    height: 50px;
-    font-size: 15px;
-    color: black;
-    background-color: #05D6B3;
-    border: 2px solid black;
-    border-radius: 8px;
-    cursor: pointer;
   }
   .button:hover{
-    color:black;
-    background-color: skyblue;
-    border: 2px solid black;
+  background:linear-gradient(to bottom, #04c790 5%, #ededed 100%);
+	background-color:#04c790;
   }
   .boxcenter{
     display:flex;

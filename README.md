@@ -2,7 +2,8 @@
 ![title](https://raw.githubusercontent.com/yud-cumba/LIM012-cipher/master/logo.jpg)
 ## 1. Resumen del proyecto
 Mi proyecto consiste en crear una aplicación web que cifre y decifre mensajes de texto, diseñado para parejas que no quieren que otras personas se enteren.
-
+## 2.Imagen final del proyecto
+![imagen](https://raw.githubusercontent.com/yud-cumba/LIM012-cipher/master/imagen_final.jpg)
 ## 3. Investigación UX
 
 * Esta aplicación está diseñada para las parejas que quieren tener conversaciones privadas y que solo ellos puedan entender. Para ello usarán la aplicación donde ambos eligirán el mismo número de desplazamiento y podrán codificar el mensaje que quieran enviar y decodificar para poder leerlo.
