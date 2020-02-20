@@ -1,10 +1,20 @@
 const cipher = {
   encode: function (offset, string) {
   /*cifrado cesar ->*/
-      //if(offset.value && string.value){
+      //captturaador errores
+      try{
+         if(offset=="" || string=="")  throw "ERROR: Tienes que rellenar los campos necesarios";
+         offset=Number(offset);
+         if(offset==0) throw "ERROR: El nivel de seguridad no puede ser 0"
+        }
+      catch(err){
+         document.getElementById("mensajeAlerta").innerHTML=err;
+      }
+        //+++++++++++++++++++++++++
+         offset=parseInt(offset);
          let textchanged="";
          let letterchanged ="";
-         for(let i=0; i<string.length; i++){
+         for(let i=0; i<string.length; i++){       
            if(string.charCodeAt(i)>=65 && string.charCodeAt(i)<=90){
             letterchanged= String.fromCharCode((string.charCodeAt(i) - 65 + offset) % 26+ 65);
            }
@@ -17,10 +27,20 @@ const cipher = {
          textchanged = textchanged+letterchanged;
          }
       return textchanged;
-     // }
+     
   },
  
    decode: function (offset, string) {
+      try{
+         if(offset=="" || string=="")  throw "ERROR: Tienes que rellenar los campos necesarios";
+         offset=Number(offset);
+         if(offset==0) throw "ERROR: El nivel de seguridad no puede ser 0"
+        }
+      catch(err){
+         document.getElementById("mensajeAlerta").innerHTML=err;
+      }
+        //+++++++++++++++++++++++++
+      offset=parseInt(offset);
       //if(offset.value && string.value){    
       let textchanged="";
       let letterchanged ="";
