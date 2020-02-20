@@ -17,7 +17,7 @@ const cipher = {
          textchanged = textchanged+letterchanged;
          }
       return textchanged;
-      //}
+     // }
   },
  
    decode: function (offset, string) {

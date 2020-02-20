@@ -9,10 +9,19 @@
     <main> 
         <div class="boxcenter">
           <p id="title"></p>    
-         </div>
-        <h2>¿No te ha pasado que quieres escrbir algún mensaje a tu pareja sin que nadie más se entere?<br>¡Esta aplicación es para tí!</h2>
+        </div>
+        <div id="pantalla1">
+          <div><h2><br>¿No te ha pasado que quieres escrbir algún mensaje a tu pareja sin que nadie más se entere?<br>¡Esta aplicación es para tí!</h2></div> <!--contenedor1-->
+             <div > <!--contenedor2-->
+                <div id="boton">
+                  <button type="button" class="button" id="btnIn">Iniciar</button>
+                </div>
+                <div id="img-stitch"></div>
+             </div>
+        </div>
+        <div id="pantalla2">
         <p>Si quieres enviar un mensaje que solo tú y tu pareja entiendan, escribe tu mensaje en el panel, dale a <em>codificar</em> y tu texto estará listo para enviar.<br>
-        Si quieres leer y entender el mensaje que te enviaron, coloca el mensaje en el panel, selecciona <em>decodificar</em>, y ¡LISTO!</p>
+          Si quieres entender el mensaje que te enviaron, coloca tu mensaje, selecciona <em>decodificar</em>, y ¡LISTO!  </p>
         <p>Ingrese el nivel de seguridad:
         <input type="number" id="movimientos" min="0" max="100">
         </p>
@@ -25,6 +34,7 @@
         </div>
         <div class="boxcenter">
         <p id="textChanged" class="box"></p>
+        </div>
         </div>
     </main>
     <script src="index.js" type="module"></script>
