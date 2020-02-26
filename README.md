@@ -26,30 +26,30 @@ Mi proyecto consiste en crear una aplicación web que cifre y decifre mensajes d
 ## 4. Objetivos de aprendizaje
 
 ### UX
-[x] Diseñar la aplicación pensando y entendiendo al usuario
-[] Crear prototipos para obtener feedback e iterar
-[] Aplicar los principios de diseño visual
+* [x] Diseñar la aplicación pensando y entendiendo al usuario
+* [ ] Crear prototipos para obtener feedback e iterar
+* [ ] Aplicar los principios de diseño visual
 ### HTML y CSS
-[] Uso correcto de HTML semántico
-[x] Uso de selectores de CSS
-[] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [ ] Uso correcto de HTML semántico
+* [x] Uso de selectores de CSS
+* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 ### DOM
-[] Uso de selectores de nodos del DOM
-[x] Manejo de eventos del DOM
-[] Manipulación dinámica del DOM
+* [ ] Uso de selectores de nodos del DOM
+* [x] Manejo de eventos del DOM
+* [ ] Manipulación dinámica del DOM
 ### Javascript
-[x] Manipulación de strings
-[x] Uso de condicionales
-[x] Uso de bucles
-[x] Uso de funciones
-[] Datos atómicos y estructurados
-[x] Utilizar ES Modules (import | export).
+* [x] Manipulación de strings
+* [x] Uso de condicionales
+* [x] Uso de bucles
+* [x] Uso de funciones
+* [ ] Datos atómicos y estructurados
+* [x] Utilizar ES Modules (import | export).
 ### Testing
-[]Testeo de tus funciones
+* [ ] Testeo de tus funciones
 ### Git y GitHub
-[x]Comandos de git (add | commit | pull | status | push).
-[] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+* [x] Comandos de git (add | commit | pull | status | push).
+* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 Buenas prácticas de desarrollo
-[x]Organizar y dividir el código en módulos (Modularización).
-[]Uso de identificadores descriptivos (Nomenclatura | Semántica).
-[] Uso de linter para seguir buenas prácticas (ESLINT).
+* [x] Organizar y dividir el código en módulos (Modularización).
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
