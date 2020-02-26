@@ -13,32 +13,32 @@ main{
     height: 100%;
     border: 2px solid black;
     border-radius: 38px;
-  }
-  #pantalla1{
+}
+#pantalla1{
     display: flex;
     flex-direction: column;
     width: 100%;
     height:65%;
     text-align: center;
-  }
-  #pantalla1 div{
+}
+#pantalla1 div{
     width: 100%;
     height:50%;
     display:flex;
-  }
-  #pantalla1 div #boton{
+}
+#pantalla1 div #boton{
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  #pantalla1 div #img-stitch{
+}
+#pantalla1 div #img-stitch{
     width: 40%;
     height: 100%;
     background-image: url("stitch.gif");
     background-size: 100% 100%;
-  }
+}
 #pantalla2{
    display: none;
 }
